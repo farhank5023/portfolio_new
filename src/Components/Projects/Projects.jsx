@@ -21,6 +21,7 @@ import {
   SiTmux,
   SiStripe,
   SiYoutube,
+  SiVercel,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -178,23 +179,24 @@ export const Projects = () => {
           </div>
 
 
-
+{/* 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
+                    src="https://cdn.dribbble.com/users/10086039/screenshots/19080442/media/3448df6cb5af9ec220a724b1bd228812.png?resize=400x0"
                     alt=""
                   />
                 </div>
               </div>
-              <div className="project_information">
+              <div className="Operator Challenge">
                 <h2></h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                The Operator Challenge Game is an engaging and interactive math puzzle
+                 game designed to test and enhance your arithmetic skills. Players are presented with a series of mathematical operations,
+                  ranging from addition and subtraction to multiplication and division. The goal is to solve the equations within a limited time frame, 
+                  earning points for each correct answer. 
                 </p>
                 <div>
                   <SiNodedotjs />
@@ -203,16 +205,70 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/user/"
+                    href="https://game-operator-chall.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                     See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href="https://github.com/farhank5023/game_operator_chall"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>  */}
+
+
+
+
+
+
+        <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://cdn.dribbble.com/users/10086039/screenshots/19080442/media/3448df6cb5af9ec220a724b1bd228812.png?resize=400x0"
+                    alt="Uniqlo-Clone"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Operator Challenge</h2>
+                <p>
+                The Operator Challenge Game is an engaging and interactive math puzzle
+                 game designed to test and enhance your arithmetic skills. Players are presented with a series of mathematical operations,
+                  ranging from addition and subtraction to multiplication and division. The goal is to solve the equations within a limited time frame, 
+                  earning points for each correct answer. 
+                </p>
+                <div>
+                  <SiJavascript />
+                  <SiHtml5/>
+                  <SiVercel/>
+                  
+               
+                </div>
+                <div>
+                  <a
+                   href="https://game-operator-chall.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                   href="https://github.com/farhank5023/game_operator_chall"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -224,53 +280,6 @@ export const Projects = () => {
               </div>
             </div>
           </div> 
-          {/* <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Uniqlo Clone</h2>
-                <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <SiHtml5 />
-                  <DiCss3 />
-                </div>
-                <div>
-                  <a
-                    href="https://uniqlo-clone.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
           {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">

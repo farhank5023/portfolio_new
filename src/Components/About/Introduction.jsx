@@ -21,8 +21,8 @@ export const Introduction = () => {
             </div> */}
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
-                <span className="different">Farhan Khan </span> and I am from{" "}
+                Hi Everyone,
+                I am from{" "}
                 <span className="different">
                   {" "}
                   Mumbai, Maharashtra (India)
